@@ -2,8 +2,7 @@
  ProblemsetVisualiser is a firefox extension that adds a visualiser to show your progress on a problemset page of codeforces.
 
 # Demo
-![Progress tracker](./icons/demo.png)
-
+<img src = "icons/demo.png"><br/>
 
 # Steps to install
 - Download the problemsetVisualiser.xpi file from this repository.
