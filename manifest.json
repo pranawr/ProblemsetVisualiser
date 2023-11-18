@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "ProblemsetVisualiser",
+    "version": "2.0",
+  
+    "description": "Adds a visualiser to show your progress on a problemset page",
+  
+    "icons": {
+      "48": "icons/pieIcon.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://codeforces.com/problemset", "*://codeforces.com/problemset?tags=*"],
+        "js": ["chart.js", "visualiser.js"],
+        "run_at": "document_end"
+      }
+    ]
+  }
+  
